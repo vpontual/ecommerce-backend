@@ -1,7 +1,10 @@
+// Connecting to the database
 require("dotenv").config();
 
+// Import the Sequelize constructor from the library
 const Sequelize = require("sequelize");
 
+// Create a new Sequelize object
 const sequelize = process.env.DB_URL
   ? new Sequelize(process.env.DB_URL)
   : new Sequelize(
@@ -17,4 +20,5 @@ const sequelize = process.env.DB_URL
       }
     );
 
+// Export the connection
 module.exports = sequelize;
