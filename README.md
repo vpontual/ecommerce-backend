@@ -34,27 +34,31 @@ THEN I am able to successfully create, update, and delete data in my database
 
 The following video shows:
 
+Category:
+
 - the application's GET routes to return all categories
-- the application's GET routes to return all products
-- the application's GET routes to return all tags
-
-link
-
-The following video shows:
-
 - the application's GET routes to return a single category
+- the application's POST routes to create a category
+- the application's PUT routes to update a category
+- the application's DELETE routes to delete a category
+
+Product:
+
+- the application's GET routes to return all products
 - the application's GET routes to return a single product
+- the application's POST routes to create a product
+- the application's PUT routes to update a product
+- the application's DELETE routes to delete a product
+
+Tags:
+
+- the application's GET routes to return all tags
 - the application's GET routes to return a single tag
+- the application's POST routes to create a tag
+- the application's PUT routes to update a tag
+- the application's DELETE routes to delete a tag
 
-link
-
-The following video shows:
-
-- the application's POST routes to delete a category
-- the application's PUT routes to update
-- the application's DELETE routes
-
-link
+[youtube video link](https://youtu.be/wiL0g0lkCrQ)
 
 ## Packages Used
 
